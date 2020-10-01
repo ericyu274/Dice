@@ -100,52 +100,52 @@ void mousePressed(){
       if(diceroll == 1){
         fill(0,200,0);
         ellipseMode(CENTER);
-        ellipse(theX,theY,5,5);
+        ellipse(theX,theY,8,8);
         a++;
         line(380,250,380,250-10*a);
       }
       else if(diceroll == 2){
         fill(200,0,0);
-        ellipse(theX-10,theY,5,5);
-        ellipse(theX+10,theY,5,5);
+        ellipse(theX-10,theY,8,8);
+        ellipse(theX+10,theY,8,8);
         b++;
         line(410,250,410,250-10*b);
       }
       else if(diceroll == 3){
         fill(0,200,0);
-        ellipse(theX,theY,5,5);
-        ellipse(theX+10,theY-10,5,5);
-        ellipse(theX-10,theY+10,5,5);
+        ellipse(theX,theY,8,8);
+        ellipse(theX+10,theY-10,8,8);
+        ellipse(theX-10,theY+10,8,8);
         c++;
         line(440,250,440,250-10*c);
       }
       else if(diceroll == 4){
         fill(200,0,0);
-        ellipse(theX+10,theY-10,5,5);
-        ellipse(theX+10,theY+10,5,5);
-        ellipse(theX-10,theY-10,5,5);
-        ellipse(theX-10,theY+10,5,5);
+        ellipse(theX+10,theY-10,8,8);
+        ellipse(theX+10,theY+10,8,8);
+        ellipse(theX-10,theY-10,8,8);
+        ellipse(theX-10,theY+10,8,8);
         d++;
         line(470,250,470,250-10*d);
       }
       else if(diceroll == 5){
         fill(0,200,0);
-        ellipse(theX,theY,5,5);
-        ellipse(theX+10,theY+10,5,5);
-        ellipse(theX+10,theY-10,5,5);
-        ellipse(theX-10,theY+10,5,5);
-        ellipse(theX-10,theY-10,5,5);
+        ellipse(theX,theY,8,8);
+        ellipse(theX+10,theY+10,8,8);
+        ellipse(theX+10,theY-10,8,8);
+        ellipse(theX-10,theY+10,8,8);
+        ellipse(theX-10,theY-10,8,8);
         e++;
         line(500,250,500,250-10*e);
       }
       else{
         fill(200,0,0);
-        ellipse(theX+10,theY-10,5,5);
-        ellipse(theX+10,theY+10,5,5);
-        ellipse(theX-10,theY-10,5,5);
-        ellipse(theX-10,theY+10,5,5);
-        ellipse(theX-10,theY,5,5);
-        ellipse(theX+10,theY,5,5);
+        ellipse(theX+10,theY-10,8,8);
+        ellipse(theX+10,theY+10,8,8);
+        ellipse(theX-10,theY-10,8,8);
+        ellipse(theX-10,theY+10,8,8);
+        ellipse(theX-10,theY,8,8);
+        ellipse(theX+10,theY,8,8);
         f++;
         line(530,250,530,250-10*f);
       }
